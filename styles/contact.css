@@ -1,0 +1,38 @@
+/* Contact form styles */
+.form-content{
+  display: flex;
+  align-items: top;
+}
+
+.left-contact-section, .right-contact-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+#form-container input, textarea{
+margin-bottom: 10px;
+height: 30px;
+}
+
+textarea{
+  height: 80px;
+}
+
+#form-container input, #form-container textarea  {
+  width: 80%;
+}
+
+.sumbit-btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#submit-btn{
+  text-align: center;
+}
