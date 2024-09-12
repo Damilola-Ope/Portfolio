@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.document-nav{
+  display: flex;
+  background-color: aqua;
+  list-style-type: none;
+  align-items: center;  
+}
+
+nav{
+  flex: 1;
+  display: flex;
+}
+
+.top-navigation{
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  background-color: rgb(140, 0, 255);
+  height: 40px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+/* Main document Styles */
+main {
+  padding: 0 20px;
+}
+
+h2{
+  text-align: center
+}
+/* Contact form styles */
+.form-content{
+  display: flex;
+  align-items: center;
+}
+
+.left-contact-section{
+  flex: 1 1 1;
+  width: 100%;
+  padding: 20px;
+}
+
+#form-container input, textarea{
+margin-bottom: 10px;
+}
+
+.form-container input{
+  width: 100%  
+}
+
+.right-contact-section{
+  flex: 1 1 1;
+  width: 100%;
+}
+
+input{
+  width: 100%
+}
+
+textarea{
+  width: 100%
+}
