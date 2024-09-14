@@ -13,18 +13,21 @@
   padding: 20px;
 }
 
-
-#form-container input, textarea{
-margin-bottom: 10px;
-height: 30px;
-}
-
 textarea{
   height: 80px;
 }
 
-#form-container input, #form-container textarea  {
+input, textarea  {
+  padding: 7px;
+  border:none;
   width: 100%;
+  background-color: #D3D8D4;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+textarea{
+  height: 80px;
 }
 
 .sumbit-btn-container{
@@ -34,5 +37,18 @@ textarea{
 }
 
 #submit-btn{
+  border: none;
+  border-radius: 2px;
   text-align: center;
+  color: black;
+  padding: 4px 10px;
+  font-size: 16px;
+}
+
+#submit-btn:hover{
+  background-color: #D3D8D4;
+}
+
+#submit-btn:active{
+  opacity: 0.7;
 }
