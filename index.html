@@ -13,13 +13,13 @@
 </head>
 <body>
   <!-- Header -->
-  <header>
+  <header  id="Top">
     <nav class="document-nav">
       <div class="empty-header-div"></div>
       <ul class="top-nav">
-        <li>About Me</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li><a href="#about-section">About Me</a></li>
+        <!-- <li><a href="#about-section">Projects</a></li> -->
+        <li><a href="#contact-section">Contact</a></li>
         <li><button class="download-resume-btn">Resume</button></li>
       </ul>
     </nav>
@@ -27,38 +27,104 @@
 
   <!-- Document Content -->
   <main>
-    <section id="Top">
-      <h1>Ope Damilola Daniel</h1>
+    <div class="intro">
+      <h1>Hi, I'm <span id="my-name">Ope Damilola Daniel</span></h1>
       <h2>Software Engineer</h2>
       <h2>Front-End Developer</h2>
-    </section>
-
+    </div>
+    <div class="spacer"></div>
+<!-- Programming langage I'm good at -->
     <section class="skills-section">
       <h2>SKILLS</h2>
-      Programming Languages I'm familar with.
-      <div></div>
-      
-    </section>
-  
-    <section class="about">
-      <!-- About myself -->
+      <p>I'm familar with the following languages and frameworks</p>
+      <div class="skills-grid">
+        <div class="thumbnail-container">
+          <img src="images/html5.png" alt="html5" class="thumbnail html">
+        </div>
 
+        <div class="thumbnail-container">
+          <img src="images/CSS3_logo_and_wordmark.svg" alt="html5" class="thumbnail">
+        </div>
+
+        <div class="thumbnail-container">
+          <img src="images/javascript.png" alt="html5" class="thumbnail">
+        </div>
+
+        <div class="thumbnail-container">
+          <img src="images/mysql-logo.svg" alt="html5" class="thumbnail">
+        </div>
+
+        <div class="thumbnail-container">
+          <img src="images/python.svg" alt="html5" class="thumbnail">
+        </div>
+
+        <div class="thumbnail-container">
+          <img src="images/git.png" alt="git" class="thumbnail">
+        </div>
+
+        <div class="thumbnail-container">
+          <img src="images/mongodb.svg" alt="html5" class="thumbnail">
+        </div>
+
+        <div class="thumbnail-container">
+          <img src="images/django.png" alt="html5" class="thumbnail">
+        </div>
+
+        <div class="thumbnail-container">
+          <img src="images/C langage.png" alt="html5" class="thumbnail">
+        </div>
+      </div>
+    </section>
+    <div class="spacer"></div>
+  
+    <section class="about" id="about-section">
+      <!-- About section -->
+      <h2>About</h2>
+      <div>
+        <p>As a software engineer with a passion for automation, I’m driven by the desire to make technology work smarter. With customer satisfaction at the core of everything I do, I take pride in delivering quality solutions that truly speak for themselves.</p>
+
+        <p>I thrive on projects that make a difference—especially those that help people or create positive change. By combining technical expertise with creativity and constant feedback, I aim to build solutions that not only solve problems but do so with elegance.</p>
+
+        <p>Inspired by innovators like Mark Zuckerberg, and with a growing interest in AI, I’m always excited about the future of technology. Outside of coding, I enjoy volleyball, mindfulness, and staying active.</p>
+      </div>
+      <div class="spacer"></div>
       <section>
         <!-- Educational Background -->
+         <h2>Educational Background</h2>
+         <div>
+          <p>
+            I’m currently pursuing a degree in Information and Communication Engineering at Covenant University, where I’m building a strong foundation in software development, systems design, and automation technologies. Expected to graduate in 2025, I’m focused on applying my learning to real-world problems through hands-on projects and internships, while staying up-to-date with emerging technologies like AI.
+          </p>
+         <div>
+          <p>For more details on my educational journey, skills, and experience, click <a href="https://google.com" ><b>here</b></a> to download my CV </p>
+          
+         </div>
+         </div>
       </section>
+      <div class="spacer"></div>
       
       <section>
         <!-- Interests -->
+         <h2>Interests</h2>
+         <div>
+          <p>
+            I’m fascinated by the potential of AI and how it’s shaping the future of technology. Exploring its possibilities and seeing the impact it can have across industries is what keeps me excited about tech. Alongside AI, I’m deeply invested in automation, always looking for ways to make processes smarter and more efficient.
+          </p>
+
+          <p>
+            Outside of the tech world, I’m passionate about staying active. Volleyball is my go-to for unwinding, while mindfulness and exercise help me stay grounded and maintain a clear focus in both my work and life.
+          </p>
+         </div>
       </section>
-    
     </section>
+    <div class="spacer"></div>
   
     
     <section>
       <!-- Projects -->
     </section>
   
-    <section class="contact-section">
+    <section class="contact-section" id="contact-section">
       <h2 id="contact-header">Contact Me</h2>
       <div class="form-content">
         <div class="left-contact-section">
@@ -76,12 +142,20 @@
           </div>
         </div>
         <div class="right-contact-section">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum corporis exercitationem expedita. Nesciunt id esse totam recusandae perferendis exercitationem consequatur ullam, numquam voluptatum aliquid est eaque dolorum consequuntur explicabo inventore! Neque molestias expedita officia doloremque fugiat atque porro iusto voluptas?
+          I’m always open to new opportunities and collaborations! Whether you have a project in mind or just want to connect, feel free to reach out using the form below. I’ll get back to you as soon as possible.
         </div>
       </div>
     </section>
-    <i class="fa-brands fa-github"></i>
-    <i class="fa-brands fa-linkedin"></i>
+    <a href="#Top" id="back-to-top">Back to Top </a>
+    <div class="spacer"></div>
+    <footer>
+      <div>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+
+    </footer>
+    
   </main>
 </body>
 </html>

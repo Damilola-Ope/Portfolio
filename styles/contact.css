@@ -24,7 +24,7 @@ textarea{
 }
 
 #form-container input, #form-container textarea  {
-  width: 80%;
+  width: 100%;
 }
 
 .sumbit-btn-container{
