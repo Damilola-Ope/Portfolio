@@ -1,6 +1,9 @@
 # Daniel Ope's Portfolio
 This is a personal portfolio website for showcasing my skills, educational background, interests, and contact information. The website includes sections like an "About Me," "Skills," and a contact form to allow potential employers or collaborators to get in touch.
 
+click the link below to view the live site.
+https://damilola-ope.github.io/Portfolio/
+
 ## Table of Contents
 Overview
 Technologies Used
@@ -20,12 +23,10 @@ Responsive Design: Implemented to ensure that the website is mobile-friendly.
 Setup
 Clone the repository:
 
-bash
 Copy code
 git clone https://github.com/Damilola-Ope/portfolio.git
 Navigate to the project directory:
 
-bash
 Copy code
 cd portfolio
 Open the index.html file in your browser: Double-click the index.html file in the project folder, or open it using your browser.
