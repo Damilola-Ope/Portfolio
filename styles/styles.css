@@ -19,7 +19,7 @@ Color scheme
 D3D8D4
 */
 main {
-  padding: 0 30px;
+  padding: 0 60px;
 }
 
 h2{
@@ -33,7 +33,7 @@ button{
   text-align: center;
   color: black;
   padding: 4px 10px;
-  font-size: 16px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -47,7 +47,7 @@ button:active{
 
 /* most the document content is written in div or p */
 div, p {
- font-size: 20px;
+ font-size: 30px;
  color: #D3D8D4
 }
 a{
@@ -99,6 +99,8 @@ ul{
   width: 100%;
 }
 
+/* footer styles */
+
 #back-to-top{
   text-align: center;
   margin-top: 40px;
@@ -115,4 +117,9 @@ ul{
   display: flex;
   justify-content: space-between;
   width: 200px;
+}
+
+footer p{
+  text-align: center;
+  font-size: 20px;
 }
