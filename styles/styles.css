@@ -28,6 +28,8 @@ h2{
   margin-bottom: 10px;
 }
 button{
+  background-color: #9ac6ca;
+  color: white;
   border: none;
   border-radius: 2px;
   text-align: center;
@@ -35,10 +37,11 @@ button{
   padding: 4px 10px;
   font-size: 20px;
   cursor: pointer;
+  transition: box-shadow 0.08s;
 }
 
 button:hover{
-  background-color: #D3D8D4;
+  box-shadow: 0px 0px 30px rgba(64, 194, 187, 0.63)
 }
 
 button:active{
@@ -97,6 +100,22 @@ ul{
 
 .thumbnail{
   width: 100%;
+}
+
+@media(min-width:730px){
+  .skills-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .thumbnail-container{
+    width: 120px;
+  }
+}
+
+@media(min-width:700px){
+  .skills-grid{
+    column-gap: 60px;
+  }
 }
 
 /* footer styles */
