@@ -36,19 +36,3 @@ textarea{
   justify-content: center;
 }
 
-#submit-btn{
-  border: none;
-  border-radius: 2px;
-  text-align: center;
-  color: black;
-  padding: 4px 10px;
-  font-size: 16px;
-}
-
-#submit-btn:hover{
-  background-color: #D3D8D4;
-}
-
-#submit-btn:active{
-  opacity: 0.7;
-}

@@ -1,3 +1,11 @@
+/* 
+Color scheme
+212A31
+2E3944
+124366
+748D92
+D3D8D4
+*/
 
 .document-nav{
   display: flex;
@@ -8,6 +16,14 @@
 nav{
   flex: 1;
   display: flex;
+}
+
+.nav-link{
+  
+}
+.nav-link:hover{
+border-bottom: 3px solid #748D92 ;
+transition: border-bottom 0.05s;
 }
 
 .empty-header-div{
